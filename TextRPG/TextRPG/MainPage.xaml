@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TextRPG.MainPage">
+
+    <StackLayout >
+        <Label Text="RPG" Margin="5" FontSize="Title" FontAttributes="Bold" TextColor="Red"/>
+        <Label Text="Welcome to the club body!" FontSize="Large" HorizontalOptions="Center"/>
+        <Button x:Name="start" Text="Enter to start" Clicked="Button_Clicked"/>
+        <Button x:Name="settings" Text="Settings" Clicked="settings_Clicked"/>
+    </StackLayout>
+</ContentPage>
